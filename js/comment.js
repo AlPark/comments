@@ -48,7 +48,6 @@ $( document ).ready(function() {
                     disablePreviousEvents();
                     $(current_element).parent().after(data);
                     initAfterLoading();
-                    initAfterCreate();
                 }
                 $(current_element).hide();
             }
