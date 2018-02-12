@@ -1,0 +1,70 @@
+.comment-author {
+
+}
+
+.comment-text {
+
+}
+
+.comment-date {
+    text-align: right;
+    font-size: 10px;
+}
+
+.comment-ornament {
+    border: none !important;
+    border-left: solid 2px #cc4342 !important;
+}
+
+.show-more {
+    font-size: 10px;
+    background-color: #610a80;
+    color: white;
+    text-decoration: wavy;
+    cursor: pointer;
+    padding: 2px 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.add-reply{
+    font-size: 10px;
+    background-color: #98f504;
+    color: white;
+    text-decoration: wavy;
+    cursor: pointer;
+    padding: 2px 25px;
+    border-radius: 10px;
+}
+
+.reply-field {
+    border: 5px solid white;
+    box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+    0 0 16px rgba(0,0,0,0.1);
+    padding: 5px;
+    padding-right: 35px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 15px;
+    display: none;
+}
+
+.send-reply-btn {
+    width:55px;
+    height:35px;
+    border: 5px solid white;
+    box-shadow:
+    inset 0 0 8px  rgba(0,0,0,0.1),
+    0 0 16px rgba(0,0,0,0.1);
+    padding: 5px;
+    margin: 0 0 10px -35px;
+    background-color: #cc00a2;
+    border-radius: 0px 25px 25px 0;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+
+.send-reply-btn:hover {
+    background-color: #51cc23;
+}

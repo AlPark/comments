@@ -1,0 +1,5 @@
+.htaccess
+.idea
+yii
+assets
+/protected/config/main_loc.php

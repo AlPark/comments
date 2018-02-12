@@ -1,0 +1,44 @@
+2018/02/12 14:39:14 [error] [php] Invalid argument supplied for foreach() (D:\openserver\domains\comments.loc\protected\views\Comments\indexAjax.php:6)
+Stack trace:
+#0 D:\openserver\domains\yii\framework\web\CController.php(872): CommentsController->renderFile()
+#1 D:\openserver\domains\comments.loc\protected\views\Comments\indexAjax.php(7): CommentsController->renderPartial()
+#2 D:\openserver\domains\yii\framework\web\CBaseController.php(126): require()
+#3 D:\openserver\domains\yii\framework\web\CBaseController.php(95): CommentsController->renderInternal()
+#4 D:\openserver\domains\yii\framework\web\CController.php(872): CommentsController->renderFile()
+#5 D:\openserver\domains\comments.loc\protected\views\Comments\indexAjax.php(7): CommentsController->renderPartial()
+#6 D:\openserver\domains\yii\framework\web\CBaseController.php(126): require()
+#7 D:\openserver\domains\yii\framework\web\CBaseController.php(95): CommentsController->renderInternal()
+#8 D:\openserver\domains\yii\framework\web\CController.php(872): CommentsController->renderFile()
+#9 D:\openserver\domains\comments.loc\protected\controllers\CommentsController.php(113): CommentsController->renderPartial()
+#10 D:\openserver\domains\yii\framework\web\actions\CInlineAction.php(49): CommentsController->actionAjaxShow()
+#11 D:\openserver\domains\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 D:\openserver\domains\yii\framework\web\filters\CFilterChain.php(134): CommentsController->runAction()
+#13 D:\openserver\domains\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 D:\openserver\domains\yii\framework\web\CController.php(1148): CAccessControlFilter->filter()
+#15 D:\openserver\domains\yii\framework\web\filters\CInlineFilter.php(58): CommentsController->filterAccessControl()
+#16 D:\openserver\domains\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 D:\openserver\domains\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 D:\openserver\domains\yii\framework\web\CController.php(265): CommentsController->runActionWithFilters()
+#19 D:\openserver\domains\yii\framework\web\CWebApplication.php(282): CommentsController->run()
+#20 D:\openserver\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 D:\openserver\domains\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#22 D:\openserver\domains\comments.loc\index.php(13): CWebApplication->run()
+REQUEST_URI=/Comments/AjaxShow
+in D:\openserver\domains\comments.loc\protected\views\Comments\indexAjax.php (6)
+in D:\openserver\domains\comments.loc\protected\views\Comments\indexAjax.php (7)
+in D:\openserver\domains\comments.loc\protected\views\Comments\indexAjax.php (7)
+2018/02/12 18:08:24 [warning] [application] Failed to set unsafe attribute "create_time" of "TblComments".
+in D:\openserver\domains\comments.loc\protected\controllers\TblCommentsController.php (72)
+in D:\openserver\domains\comments.loc\index.php (13)
+2018/02/12 18:08:24 [warning] [application] Failed to set unsafe attribute "update_time" of "TblComments".
+in D:\openserver\domains\comments.loc\protected\controllers\TblCommentsController.php (72)
+in D:\openserver\domains\comments.loc\index.php (13)
+2018/02/12 18:36:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in D:\openserver\domains\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\openserver\domains\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 D:\openserver\domains\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 D:\openserver\domains\comments.loc\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://comments.loc/Comments/index
+---
